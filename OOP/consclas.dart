@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  var student = Student("yagmur","fidan");
+  var student = Student("deniz","kodas");
   print(student.firstName);
 }
 

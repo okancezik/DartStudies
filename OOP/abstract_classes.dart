@@ -18,7 +18,7 @@ abstract class Human {
 
   void talk() {
     //concrete method
-    print("talkkk...");
+    print("talk function worked...");
   }
 }
 

@@ -67,8 +67,8 @@ void main(List<String> args) {
   data1.remove(2); //2 degeri setten cıkarıldı
   print(data1); //{1,3,100}
 
-  print(data1.first);
-  print(data1.last);
+  print(data1.first); //kümenin ilk elemanını verir
+  print(data1.last); //kümenin son elemanını verir
 
   Set<int> data2 = {1, -2, 7, 1, 4, 2};
 
@@ -93,10 +93,10 @@ void main(List<String> args) {
   Map<String,int> myMap = {
     "diff" : 91,
     "oop" : 94,
-    "networks" : 99 
+    "computernetworks" : 99 
   };
 
-  print(myMap["diff"]);
+  print(myMap["diff"]); //diff key'inin degeri ekrana yazdırıldı
 
    myMap["andoridprogramming"] = 100; //map'e yeni key,value çifti ekledik
 }

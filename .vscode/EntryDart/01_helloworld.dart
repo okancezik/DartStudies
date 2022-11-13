@@ -10,7 +10,7 @@ void main(List<String> args) {
 
   bool isSure = true;
 
-  String name = "Enes";
+  String name = "Rıfkı";
 
   String name2 = 'Okan';
 
@@ -18,7 +18,7 @@ void main(List<String> args) {
 
   //value = 123; //hata verir
 
-  dynamic ayse = "merhaba";
+  dynamic she = "merhaba";
 
   ayse = 123;
 
@@ -35,10 +35,11 @@ void main(List<String> args) {
   String c = "12"; 
   //print(int.parse(c)+23);
 
+  //IF-ELSE
   // if (b == 12) {
-  //   print("enes adamdır...");
+  //   print("b is equal 12");
   // } else {
-  //   print("devam");
+  //   print("b is not equal 12");
   // }
 
   int z = 12;
