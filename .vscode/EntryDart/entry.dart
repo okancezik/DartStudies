@@ -1,7 +1,7 @@
 void main(List<String> args){
   print("merhaba okan ben geldim");
 
-  //primitive types
+  //primitive types(ilkel veri tipleri)
 
   //bir değişkenin isimlendirmesinde rakamla veya nokta  başlayamaz
 
@@ -17,6 +17,7 @@ void main(List<String> args){
   var controlHandle = false;
   //controlHandle = "merhaba"; // HATA bu degisken ilk başta boolean deger aldıgı icin artık sadece boolean deger alabilir
 
+  //IF-ELSE
   if(controlHandle){
     print("handle edilmiş...");
   }else{
@@ -25,6 +26,7 @@ void main(List<String> args){
 
   int note = 10;
 
+  //IF-ELSE IF-ELSE
   if(note >= 55 ){
     print("geçti");
   }else if(note >= 40){
@@ -35,6 +37,7 @@ void main(List<String> args){
 
   String note2 = "A";
   
+  //SWITCH 
   switch(note2){
     case "A" : {
       print("A");

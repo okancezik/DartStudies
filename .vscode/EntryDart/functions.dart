@@ -13,9 +13,11 @@ void main(){
   test3();
   //test3(1,2,5); //hata verir,isimlendirilmiş parametre oldugu icin
   test3(y:67);
-  test3(x:12,y:40,z:70); //parametreleri istedigimiz sekilde sıralayabilriz.
+  test3(x:12,y:40,z:70); //isimlendirilmiş parametreleri istedigimiz sekilde sıralayabilriz.
+  test3(y:40,x:12,z:70); //yukarıdaki ile aynı işlevi görürü
 }
 
+//required parameter
 void sayHelloToUser(String user){
   print("hello $user");
 }
@@ -43,7 +45,7 @@ void test2(int x, [int y=0 ,int z=0]){
   print(z);
 }
 
-//named constructor
+//named parameters
 void test3({int x=0,int y=0,int z=0}){
   print(x);
   print(y);
