@@ -18,41 +18,41 @@ void main(List<String> args){
   //controlHandle = "merhaba"; // HATA bu degisken ilk başta boolean deger aldıgı icin artık sadece boolean deger alabilir
 
   if(controlHandle){
-    print("handle edilmiş");
+    print("handle edilmiş...");
   }else{
-    print("handle edilmemis abi....");
+    print("handle edilmemiş...");
   }
 
   int note = 10;
 
   if(note >= 55 ){
-    print("öğrenci dersi geçmiş abiii...");
+    print("geçti");
   }else if(note >= 40){
-    print("bütünleme abi...");
+    print("bütünleme");
   }else{
-    print("kaldı abiiii");
+    print("kaldı");
   }
 
   String note2 = "A";
   
   switch(note2){
     case "A" : {
-      print("Süpeeer abiiii");
+      print("A");
     }
     break;
     
-    case "B" : {print("yine iyi abiii..");} 
+    case "B" : {print("Note : B");} 
     break;
 
-    case "C" : {print("calıs");}
+    case "C" : {print("Note : C");}
     break;
     
-    default : {print("bilinmiyor...");}
+    default : {print("unknown");}
   }
 
   //TERNARY
 
-  note == "A" ? print("Süper not abi") : print("fenasın be");
+  note == "A" ? print("Note is equal A") : print("Note is not equal A");
 
   int x = 10;
   int y = 54;
